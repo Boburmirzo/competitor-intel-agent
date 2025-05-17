@@ -10,6 +10,8 @@ This Arcade agent automates content research for writers by:
 - Summarizing the top results
 - Storing notes and references directly in a Notion page
 
+![AI-Powered Research Assistant Agent with Arcade](/assets/Arcade%20Research%20Assitant%20Demo.gif)
+
 Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 - 🔎 [Search.GoogleSearch](https://docs.arcade.dev/toolkits/search/google_search)
 - 🌐 [Web.ScrapeURL](https://docs.arcade.dev/toolkits/development/web/web)
