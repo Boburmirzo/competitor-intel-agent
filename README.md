@@ -42,8 +42,8 @@ Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/your-org/research-assistant-agent.git
-cd research-assistant-agent
+git clone https://github.com/Boburmirzo/research-assistance-arcade-ai.git
+cd research-assistance-arcade-ai
 ```
 
 2. (Optional) Create and activate a virtual environment:
