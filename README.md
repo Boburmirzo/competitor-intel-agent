@@ -1,32 +1,31 @@
-# 🧠 AI-Powered Research Assistant Agent with Arcade
+# 🕵️‍♂️ CompetitorIntel Agent
 
-Writers spend hours researching a topic, gathering sources, and organizing notes before drafting content. This process is repetitive and time-consuming.
+An AI-powered agent that helps companies monitor competitors’ websites, product updates, and announcements—automatically.
 
-This Arcade agent automates content research for writers by:
+Instead of manually tracking blog posts and feature launches, this bot:
+- Searches Google for recent competitor news
+- Scrapes article content
+- Summarizes the key takeaways using LLM
+- Saves everything in a structured Notion page
 
-- Taking a topic input
-- Searching Google for relevant articles links
-- Scrapes content from each link
-- Summarizing the top results
-- Storing notes and references directly in a Notion page
+---
 
-![AI-Powered Research Assistant Agent with Arcade](/assets/Arcade%20Research%20Assitant%20Demo.gif)
+## 🧠 Real-World Use Case
+
+**Problem:**  
+Marketing, strategy, and leadership teams often miss timely competitor updates due to scattered sources and manual tracking.
+
+**Solution:**  
+This AI agent automates that entire workflow and delivers weekly summaries straight to Notion.
+
+---
+
+<!-- ![AI-Powered Research Assistant Agent with Arcade](/assets/Arcade%20Research%20Assitant%20Demo.gif) -->
 
 Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 - 🔎 [Search.GoogleSearch](https://docs.arcade.dev/toolkits/search/google_search)
 - 🌐 [Web.ScrapeURL](https://docs.arcade.dev/toolkits/development/web/web)
 - 📓 [NotionToolkit.CreatePage](https://docs.arcade.dev/toolkits/productivity/notion)
-
----
-
-## 🚀 How It Works
-
-1. User defines a topic
-2. Agent:
-   - Performs Google search
-   - Scrapes article content from each link
-   - Summarizes each using LLM like gpt4-0
-   - Formats all findings into a Notion page
 
 ---
 
@@ -42,8 +41,8 @@ Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/Boburmirzo/research-assistance-arcade-ai.git
-cd research-assistance-arcade-ai
+git clone https://github.com/Boburmirzo/competitor-intel-agent.git
+cd competitor-intel-agent
 ```
 
 2. (Optional) Create and activate a virtual environment:
@@ -70,12 +69,13 @@ ARCADE_USER_ID=your_email@example.com
 5. Run the agent
 
 ```bash
-python main.py
+python competitor_tracker.py
 ```
 
 ## 📝 Output Example (in Notion)
 
-A Notion page like: https://www.notion.so/AI-agents-in-customer-support-1f68d15fe66c815592a7f6d75e6b0516
+A Notion page like: https://www.notion.so/Competitor-Intelligence-1f78d15fe66c80d98317dde8f517a8b3
+Or you can check output [exported to PDF](/output/Competitor%20Intelligence%20Sample%20Output.pdf).
 
 
 ## ⚠️ Notes
