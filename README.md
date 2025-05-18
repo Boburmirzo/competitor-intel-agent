@@ -13,14 +13,14 @@ Instead of manually tracking blog posts and feature launches, this bot:
 ## 🧠 Real-World Use Case
 
 **Problem:**  
-Marketing, strategy, and leadership teams often miss timely competitor updates due to scattered sources and manual tracking.
+Marketing, strategy, and leadership teams often miss timely competitor updates due to scattered sources and manual tracking. Oftentimes such tools is not free to use.
 
 **Solution:**  
 This AI agent automates that entire workflow and delivers weekly summaries straight to Notion.
 
----
+![CompetitorIntel Agent GIF](/output/Arcade%20Demo%20GIF.gif)
 
-<!-- ![AI-Powered Research Assistant Agent with Arcade](/assets/Arcade%20Research%20Assitant%20Demo.gif) -->
+---
 
 Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 - 🔎 [Search.GoogleSearch](https://docs.arcade.dev/toolkits/search/google_search)
@@ -28,6 +28,10 @@ Built using [Arcade.dev](https://docs.arcade.dev/toolkits) toolkits:
 - 📓 [NotionToolkit.CreatePage](https://docs.arcade.dev/toolkits/productivity/notion)
 
 ---
+
+## Wath the video tutorial
+
+[CompetitorIntel Agent Video Tutorial](https://drive.google.com/file/d/19cjP7XNyCe7QlCVhzPWjK2TSfNOBw4_p/view?usp=sharing)
 
 ## 🧰 Requirements
 
