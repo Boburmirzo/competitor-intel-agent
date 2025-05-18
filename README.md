@@ -87,6 +87,18 @@ Or you can check output [exported to PDF](/output/Competitor%20Intelligence%20Sa
 - Page scraping uses Web.ScrapeURL, which may not work on login-protected or paywalled sites.
 - Notion authorization is requested on first run via Arcade OAuth.
 
+## 🚀 Future Improvements
+
+Here are a few ideas to further improve the project:
+
+- Slack Integration for Real-Time Alerts
+
+Integrate with Slack using [Arcade Slack tool](https://docs.arcade.dev/toolkits/social-communication/slack) to send real-time notifications to the #marketing channel when key events occur.
+
+- Social Media Data Collection
+
+Implement automated data collection from platforms like X and LinkedIn to track competitor's brand mentions.
+
 ## 👨‍💻 Author
 
 Built by @boburmirzo with ❤️ and [Arcade.dev](https://www.arcade.dev/)
